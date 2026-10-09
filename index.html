@@ -64,7 +64,7 @@
         
         .grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
             gap: 1.5rem;
             margin-top: 1.5rem;
         }
@@ -75,7 +75,8 @@
             box-shadow: 0 1px 3px rgba(0,0,0,0.1);
             border-top: 4px solid var(--secondary);
         }
-        .card h3 { margin-top: 0; color: var(--primary); }
+        .card h3 { margin-top: 0; color: var(--primary); font-size: 1.15rem; margin-bottom: 0.25rem; }
+        .card small { display: block; color: #64748b; font-weight: 500; font-size: 0.85rem; }
         footer {
             text-align: center;
             padding: 3rem 0;
@@ -93,8 +94,7 @@
             <h1>Evaluating Long-Horizon Agents in Dynamic Environments</h1>
             <p class="tagline">Benchmarking, Agentic Debt, and Operational Tax @ ICLR 2027</p>
             <div>
-                <a href="#cfp" class="btn btn-accent">Call for Papers</a>
-                <a href="https://openreview.net" class="btn" target="_blank">Submit via OpenReview</a>
+                <a href="https://openreview.net" class="btn btn-accent" target="_blank">Submit via OpenReview</a>
             </div>
         </div>
     </header>
@@ -120,6 +120,40 @@
                 <div class="card">
                     <h3>3. Stochastic Tax (ST)</h3>
                     <p>Measuring the operational compute footprint, error propagation, and failure rates over massive execution paths.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="speakers">
+            <h2>Confirmed & Tentative Invited Speakers</h2>
+            <div class="grid">
+                <div class="card" style="border-top-color: #ef4444;">
+                    <h3>Tim Kraska</h3>
+                    <small>MIT CSAIL</small>
+                </div>
+                <div class="card" style="border-top-color: #ef4444;">
+                    <h3>Fred Sala</h3>
+                    <small>University of Wisconsin-Madison</small>
+                </div>
+                <div class="card" style="border-top-color: #ef4444;">
+                    <h3>Aviral Kumar</h3>
+                    <small>Carnegie Mellon University</small>
+                </div>
+                <div class="card" style="border-top-color: #ef4444;">
+                    <h3>Shafiq Rayhan Joty</h3>
+                    <small>Salesforce AI Research</small>
+                </div>
+                <div class="card" style="border-top-color: #ef4444;">
+                    <h3>Narayan Ramasubbu</h3>
+                    <small>University of Pittsburgh</small>
+                </div>
+                <div class="card" style="border-top-color: #ef4444;">
+                    <h3>Raja Iqbal</h3>
+                    <small>Ejento AI</small>
+                </div>
+                <div class="card" style="border-top-color: #ef4444;">
+                    <h3>Zhewei Yao</h3>
+                    <small>Snowflake (Tentative)</small>
                 </div>
             </div>
         </section>
@@ -155,36 +189,39 @@
         </section>
 
         <section id="organizers">
-            <h2>Organizers</h2>
-            <div class="grid">
-                <div class="card" style="border-top-color: #64748b;">
+            <h2>Workshop Organizers</h2>
+            <div class="grid">                
+                <div class="card" style="border-top-color: #1e293b;">
                     <h3>Dan Roth</h3>
-                    <small>UPenn / Oracle</small>
+                    <small>Oracle AI</small>
                 </div>
-                                <div class="card" style="border-top-color: #64748b;">
-                    <h3>Narayan Ramasubbu</h3>
-                    <small>University of Pittsburgh</small>
+                <div class="card" style="border-top-color: #1e293b;">
+                    <h3>Tim Kraska</h3>
+                    <small>MIT CSAIL</small>
                 </div>
-                <div class="card" style="border-top-color: #64748b;">
+                <div class="card" style="border-top-color: #1e293b;">
+                    <h3>Shafiq Rayhan Joty</h3>
+                    <small>Salesforce AI Research</small>
+                </div>
+                <div class="card" style="border-top-color: #1e293b;">
                     <h3>Mohammad Zia</h3>
                     <small>Pittsburg State University</small>
                 </div>
-
-                <div class="card" style="border-top-color: #64748b;">
-                    <h3>Raja Iqbal</h3>
-                    <small>Ejento AI</small>
-                </div>
-                <div class="card" style="border-top-color: #64748b;">
-                    <h3>Fahad Shah</h3>
-                    <small>Ejento AI</small>
-                </div>
-                <div class="card" style="border-top-color: #64748b;">
+                <div class="card" style="border-top-color: #1e293b;">
                     <h3>Marianne Liu</h3>
                     <small>Oracle AI</small>
                 </div>
-                <div class="card" style="border-top-color: #64748b;">
+                <div class="card" style="border-top-color: #1e293b;">
                     <h3>Iman Zadeh</h3>
                     <small>EDB</small>
+                </div>
+                <div class="card" style="border-top-color: #1e293b;">
+                    <h3>Raja Iqbal</h3>
+                    <small>Ejento AI</small>
+                </div>
+                <div class="card" style="border-top-color: #1e293b;">
+                    <h3>Fahad Shah</h3>
+                    <small>Ejento AI</small>
                 </div>
             </div>
         </section>
